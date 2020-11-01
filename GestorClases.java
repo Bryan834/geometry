@@ -1,4 +1,3 @@
-import figures.Círculo;
 import figures.Figura;
 public class GestorClases {
 

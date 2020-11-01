@@ -1,4 +1,4 @@
 package figures;
 
-public class Triángulo {
+public class Triangulo {
 }
