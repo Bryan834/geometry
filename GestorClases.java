@@ -1,6 +1,7 @@
 import figures.Figura;
 import figures.Rectangulo;
 import figures.Circulo;
+import figures.Cuadrado;
 
 import java.util.Arrays;
 
@@ -24,7 +25,7 @@ public class GestorClases {
         Figura[] v = new Figura[3];
         v[0] = new Circulo(5);
         v[1] = new Rectangulo(2,1);
-        v[2] = new Rectangulo(2,2);
+        v[2] = new Cuadrado(6);
 
         double r = GestorClases.suma(v);
 
