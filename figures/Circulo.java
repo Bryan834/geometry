@@ -11,5 +11,5 @@ public class Circulo extends Figura {
     public double area() {return Math.PI * Math.pow(this.r, 2);}
 
     @Override
-    public String toString() {return "El círculo de radio" + this.r + "tiene de área" + this.area();}
+    public String toString() {return "El círculo de radio " + this.r + " tiene de área: " + this.area();}
 }

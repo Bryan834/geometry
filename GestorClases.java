@@ -14,6 +14,7 @@ public class GestorClases {
     public static double suma (Figura[] v) {
         double ret = 0;
         for (Figura f: v) {
+            System.out.println(f);
             ret += f.area();
         }
         return ret;
@@ -27,7 +28,7 @@ public class GestorClases {
 
         double r = GestorClases.suma(v);
 
-        System.out.println(r);
+        System.out.println("El área total es: "+ r);
 /*
         System.out.println(Arrays.asList(v));
         GestorClases.sort(v);
