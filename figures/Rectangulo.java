@@ -21,5 +21,5 @@ public class Rectangulo extends Figura {
     }
 */
     public String toString() {return "El rectángulo de " + this.l1 + " y lado " + this.l2 + "tiene como área: " + this.area();}
-    
+
 }
