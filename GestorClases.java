@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class GestorClases {
 
     public static void sort (Figura [] v) {
+        Arrays.sort(v);
 
     }
 
@@ -28,10 +29,10 @@ public class GestorClases {
         double r = GestorClases.suma(v);
 
         System.out.println("El área total es: "+ r);
-/*
+
         System.out.println(Arrays.asList(v));
         GestorClases.sort(v);
         System.out.println(Arrays.asList(v));
-*/
+
     }
 }
