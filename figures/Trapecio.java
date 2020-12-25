@@ -14,6 +14,6 @@ public class Trapecio extends Figura {
 
     public double area() {return this.h * (this.b1 * this.b2 ) / 2;}
 
-    public String toString() {return "El trapecio de altura: " + this.h + " base 1 " + this.b1 + " y base 2 " + this.b2 + " tiene como área: " + this.area();}
+    public String toString() {return "El trapecio de altura: " + this.h + " base 1: " + this.b1 + " y base 2: " + this.b2 + " tiene como área: " + this.area();}
 
 }
